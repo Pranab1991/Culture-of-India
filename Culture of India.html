@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<Title>Culture of India</Title>
+<link rel="shortcut icon" type="image/png" href="images/icon/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="css/Culture_Of_India.css">
+<script src="js/Culture_of_india.js"></script>
+</head>
+<body id="MainBody">
+<div id="PageContainer">
+<div id="audios">
+<audio autoplay loop controls id="myplayer">
+  <source src="songs/intro.mp3" type="audio/mpeg" id="mysong">
+</audio>
+</div>
+		<div id="TitlePane">
+				<div id="left">
+						<div id="toprow">
+							<img id="toprowicon" src="images/body/row1.png"  height="40" width="250" />
+						</div>
+						<div id="toprow">
+							<img id="toprowicon" src="images/body/row2.png"  height="40" width="250" />
+						</div>
+				</div>
+				<div id="middle">
+					<div id="textarea">Culture Of India</div>
+				</div>
+				<div id="right">
+						<div id="toprow">
+							<img id="toprowicon" src="images/body/row3.png"  height="40" width="250" />
+						</div>
+						<div id="toprow">
+							<img id="toprowicon" src="images/body/row4.png"  height="40" width="250" />
+						</div>
+				</div>
+		</div>
+		 <div id="horrow">
+							<img id="toprowicon" src="images/body/hrow1.png"  height="200" width="40" />
+			</div> 
+		<div id="banner" >
+		   <img id="banneroter" src="images/banners/india_galance.png"  height="200" width="780" onload="imageroter();"/>
+		</div>
+		<div id="horrow2">
+							<img id="toprowicon" src="images/body/hrow2.png"  height="200" width="40" />
+			</div> 
+	<div id="horizontalrow">
+		<hr>
+	</div>	
+	<div id="TitleHeading">
+	Introduction
+	</div>
+<div id="content">	
+	<div id="leftnav">	
+		<div id="main">
+			<div id="Menu1" class="menuOption">
+				<div id="IntoImage" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/Intro1.png"  height="25" width="25" /></div>
+				<div id="IntoText" class="menuOptionText" style="cursor:pointer;" onclick="introductiondata();">Introduction</div>
+			</div>	
+			<div id="leftnavImage0" class="menuOption">
+				<div id="ReligionImage" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/religion1.png"  height="25" width="25" /></div>
+				<div id="ReligionText" class="menuOptionText" style="cursor:pointer;" onclick="religiondata();">Religions</div>
+			</div>
+			<div id="leftnavImage" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/lifestyle.png"  height="25" width="25" /></div>
+			<div id="leftnavText"  class="menuOptionText" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">LifeStyle
+				<div id="leftnavText1"  class='submenu'>
+					<div id="familystructimage" class="submenuimage"><img id="familystructimg"  height="20" width="20" /></div>
+					<div id="familystruct" class="submenuitems" onclick="fsdata();">
+					</div>
+				</div>
+				<div id="leftnavText2" class='submenu'>
+					<div id="marriagimage" class="submenuimage"><img id="marriagimg"   height="20" width="20" /></div>
+					<div id="marrages" class="submenuitems" onclick="marragedata();">
+					</div>
+				</div>
+				<div id="leftnavText3" class='submenu'>
+					<div id="clothingimage" class="submenuimage"><img id="clothingimg"   height="20" width="20" /></div>
+					<div id="clothing" class="submenuitems" onclick="clothingdata();">
+					</div>
+				</div>
+				<div id="leftnavText4" class='submenu'>	
+					<div id="cuisineimage" class="submenuimage"><img id="cuisineimg"   height="20" width="20" /></div>	
+					<div id="cuisine" class="submenuitems" onclick="cuisinedata();">
+					</div>
+				</div>
+				<div id="leftnavText5" class='submenu'>
+				    <div id="greetingsimage" class="submenuimage"><img id="greetingsimg"   height="20" width="20" /></div>
+					<div id="greetings" class="submenuitems" onclick="greetingdata();">
+					</div>
+				</div>
+				<div id="leftnavText6" class='submenu'>	
+					<div id="festivalimage" class="submenuimage"><img id="festivalimg"   height="20" width="20" /></div>	
+					<div id="festival" class="submenuitems" onclick="festivaldata();">
+					</div>
+				</div>	
+			</div>	
+			
+			<div id="leftnavImage3" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/arts.png"  height="25" width="25" /></div>
+			<div id="leftnavText3"  class="menuOptionText" onmouseover="showsubmenu3();" onmouseout="hidesubmenu3();">Arts
+				<div id="leftnavText31" class='submenu'>
+					<div id="danceimage" class="submenuimage"><img id="danceimg"  height="20" width="20" /></div>
+					<div id="dance" class="submenuitems" onclick="dancedata();">
+					</div>
+				</div>
+				<div id="leftnavText32" class='submenu'>
+					<div id="dtimage" class="submenuimage"><img id="dtimg"   height="20" width="20" /></div>
+					<div id="dt" class="submenuitems" onclick="dtdata();">
+					</div>
+				</div>
+				<div id="leftnavText33" class='submenu'>
+					<div id="musicimage" class="submenuimage"><img id="musicimg"   height="20" width="20" /></div>
+					<div id="music" class="submenuitems" onclick="musicdata();">
+					</div>
+				</div>
+				<div id="leftnavText34" class='submenu'>	
+					<div id="paintingimage" class="submenuimage"><img id="paintingimg"   height="20" width="20" /></div>	
+					<div id="painting" class="submenuitems" onclick="paintdata();">
+					</div>
+				</div>
+				<div id="leftnavText35" class='submenu'>
+				    <div id="sculptureimage" class="submenuimage"><img id="sculptureimg"   height="20" width="20" /></div>
+					<div id="sculpture" class="submenuitems" onclick="sculpturedata();">
+					</div>
+				</div>
+				<div id="leftnavText36" class='submenu'>	
+					<div id="architectureimage" class="submenuimage"><img id="architectureimg"   height="20" width="20" /></div>	
+					<div id="architecture" class="submenuitems" onclick="architecturedata();">
+					</div>
+				</div>
+			</div>	
+			<div id="leftnavImage2" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/intelect1.png"  height="25" width="25" /></div>
+			<div id="leftnavText2"  class="menuOptionText" onmouseover="showsubmenu2();" onmouseout="hidesubmenu2();">Intellectual
+				<div id="leftnavText21" class='submenu'>
+					<div id="LanguageLiteratureimage" class="submenuimage"><img id="LanguageLiteratureimg"  height="20" width="20" /></div>
+					<div id="LanguageLiterature" class="submenuitems" onclick="lang_liter();">
+					</div>
+				</div>
+				<div id="leftnavText22" class='submenu'>
+					<div id="epicimage" class="submenuimage"><img id="epicimg"   height="20" width="20" /></div>
+					<div id="epic" class="submenuitems" onclick="epicdata();">
+					</div>
+				</div>
+			</div>	
+			<div id="leftnavImage4" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/sports.png"  height="25" width="25" /></div>
+			<div id="leftnavText4"  class="menuOptionText" onmouseover="showsubmenu4();" onmouseout="hidesubmenu4();">Sports
+				<div id="leftnavText41" class='submenu'>
+					<div id="gameimage" class="submenuimage"><img id="gameimg"  height="20" width="20" /></div>
+					<div id="game" class="submenuitems" onclick="gamedata();">
+					</div>
+				</div>
+				<div id="leftnavText42" class='submenu'>
+					<div id="martialimage" class="submenuimage"><img id="martialimg"   height="20" width="20" /></div>
+					<div id="martial" class="submenuitems" onclick="martialdata();">
+					</div>
+				</div>
+			</div>	
+			<div id="leftnavImage5" class="menuOptionImage"><img id="IntoImageID" src="images/menuIcons/nature.png"  height="25" width="25" /></div>
+			<div id="leftnavText5"  class="menuOptionText" onmouseover="showsubmenu5();" onmouseout="hidesubmenu5();">Natural Heritage
+				<div id="leftnavText51" class='submenu'>
+					<div id="gonimage" class="submenuimage"><img id="gonimg"  height="20" width="20" /></div>
+					<div id="gon" class="submenuitems" onclick="forestdata();">
+					</div>
+				</div>
+				<div id="leftnavText52" class='submenu'>
+					<div id="animalsimage" class="submenuimage"><img id="animalsimg"   height="20" width="20" /></div>
+					<div id="animals" class="submenuitems" onclick="animaldata();">
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+	</div>	
+	<div id="rightnav">
+			<div id="Texter">
+			The culture of India is the way of living of the people of India. India's languages, religions, dance, music, architecture, food, and customs differ from place to place within the country. The Indian culture, often labeled as an amalgamation of several cultures, spans across the Indian subcontinent and has been influenced by a history that is sever.....
+			<br>
+			<span style="color:blue" id="info">Read full in Scroller below</span>
+			</div>
+			<div id="contentimage" >
+			<img id="bodyImages"  height="197" width="210" src="images/bodyImages/introduction1.png"/>
+			</div>
+			<hr>
+			<div id="Texter2">
+			The culture of India is the way of living of the people of India. India's languages, religions, dance, music, architecture, food, and customs differ from place to place within the country. The Indian culture, often labeled as an amalgamation of several cultures, spans across the Indian subcontinent and has been influenced by a history that is several millennia old.Many elements of India's diverse cultures, such as Indian religions, yoga and Indian cuisine, have had a profound impact across the world.
+			</div>
+	</div>
+</div>
+<div id="footer"> <span id='pager' style="background-color:#E7E7E5;padding:2px">Page 1 of 20</span> </div>
+</div>
+
+</body>
+</html>
